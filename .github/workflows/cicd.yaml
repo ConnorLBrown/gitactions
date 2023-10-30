@@ -7,7 +7,7 @@ jobs:
  steps:
  - uses: actions/checkout@v4 #will checkout the repo
  - uses: actions/setup-node@v3 #will setup node.js
- with:
+with:
   node-version: '14'
   - run: npm install -g bats #g is for global, 
   - run: bats --version #bats is bash assertiontesting system
